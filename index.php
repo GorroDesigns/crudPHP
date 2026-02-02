@@ -12,6 +12,9 @@ require_once("controller/recibo.php");
 
 $controlador = '';
 
+// Generar un conflicto con Dani
+
+
 if (isset($_GET['c'])) :
     $controlador = $_GET['c'];
     $metodo = '';
