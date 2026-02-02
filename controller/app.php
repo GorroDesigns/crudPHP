@@ -13,6 +13,8 @@ class AppControlador
      *
      * Este metodo comprueba SI existe una sesión activa y,
      * si no existe, la inicia antes de cargar la vista.
+     * 
+     * Cambio de juan 4
      *
      * @return void
      */
