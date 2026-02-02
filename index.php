@@ -12,7 +12,9 @@ require_once("controller/recibo.php");
 
 $controlador = '';
 
-// Generar un conflicto con Juan
+dev_juan
+// Resolver conflicto
+main
 
 
 if (isset($_GET['c'])) :
