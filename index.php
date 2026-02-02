@@ -1,12 +1,12 @@
 <?php
 if (session_status() === PHP_SESSION_NONE)
     session_start();
-
-require_once("config.php");
+require_once("controller/facturas.php");
 require_once("controller/app.php");
 require_once("controller/clientes.php");
-require_once("controller/facturas.php");
 require_once("controller/lineas_factura.php");
+
+require_once("config.php");
 require_once("controller/articulos.php");
 require_once("controller/recibo.php");
 
@@ -26,6 +26,10 @@ if (isset($_GET['c'])) :
                 ClientesControlador::index();
             endif;
             break;
+
+            /**
+             * Cambio de Juan 1
+             */
 
         case 'facturas' :
             if (method_exists('FacturasControlador', $metodo)) :
